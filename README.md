@@ -1,1 +1,0 @@
-# iThome2023-learn-NLP-in-30-days
