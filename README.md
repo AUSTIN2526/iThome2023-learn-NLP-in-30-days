@@ -1,5 +1,5 @@
 # iThome2023-learn-NLP-in-30-days
-
+系列文連結:[點我](https://ithelp.ithome.com.tw/users/20152236/articles)
 ## 書籍宣傳
 小弟我去年鐵人賽的書籍即將上市，歡迎預購
 <a href="https://www.tenlong.com.tw/products/9786263336025?list_name=r-zh_tw">
