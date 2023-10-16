@@ -35,22 +35,23 @@ def gpt_instruct(dialog, few_shot):
     
     return {"role": "system", "content": f'{init_instruct}'}
     
-    
+
 
 def GPT(model, dialog, simple, gpt_version, TYPE, num = 10):
     few_shot = creat_fewshot(model, dialog[-1], simple, num)
-    dialog[0] = gpt_instruct(dialog, few_shot)
-    if TYPE == 'azure':
-        response = openai.ChatCompletion.create(
-            engine=gpt_version, 
-            messages=dialog
-        )
-    else:
+    dialog[0] = gpt_instruct(few_shot)
+    if TYPE != 'azure':
         response = openai.ChatCompletion.create(
             model=gpt_version,
             messages=dialog
         )  
+    else:
+        response = openai.ChatCompletion.create(
+                engine=gpt_version, 
+                messages=dialog
+        )
         
+
     return response.choices[0].message.content
     
   
@@ -73,7 +74,7 @@ while(1):
     user_input = input('請輸入問題:')
     dialog.append({"role": "user", "content": f'{user_input}'})
     response = GPT(model, dialog, simple, gpt_version, os.getenv('API_TYPE'))
-    dialog.append({"role": "assistant", "content": f'{user_input}'})
+    dialog.append({"role": "assistant", "content": f'{response}'})
     print('GPT回復:',response)
 
     
