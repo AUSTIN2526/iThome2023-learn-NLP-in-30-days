@@ -4,7 +4,6 @@
 ## 文章簡介
 近幾個月來，因ChatGPT的出現，推動了NLP領域的發展，因此在本次鐵人賽的挑戰中，我會通過這30天的時間來講述NLP領域中的熱門模型背後的技術原理(例如:Transformer、BERT、GPT)，並從實際的應用中，告訴你該怎麼撰寫這些模型的程式碼，以加深我們對該模型的印象。同時我會還會使用不同的工具，來分析這些文字之間的關聯性，並對此結果加以解釋，從而一步步的理解NLP模型中的共同之處與運算方式。
 
-系列文連結:[點我](https://ithelp.ithome.com.tw/users/20152236/articles)
 ## 書籍宣傳
 * [【Day 1】學習NLP前我們應該要準備什麼?](https://ithelp.ithome.com.tw/articles/10317977)
 * [【Day 2】電腦該怎麼理解人類的語言 (上) - 文字怎麼輸入到模型中](https://ithelp.ithome.com.tw/articles/10318965)
