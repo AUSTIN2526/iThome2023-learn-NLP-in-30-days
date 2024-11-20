@@ -1,5 +1,14 @@
 # iThome2023-learn-NLP-in-30-days
-該專案主要帶你學習從0經驗的NLP新手到成為微調LLM的專家
+該專案主要帶你學習從0經驗的NLP新手到成為微調LLM的專家  
+
+# 書籍推廣
+該文章已被改寫成書籍『全面掌握生成式 AI 與 LLM 開發實務：NLP × PyTorch × GPT 輕鬆打造專屬的大型語言模型 』，有興趣的人歡迎選購
+
+* 書籍連結
+<a href="https://www.tenlong.com.tw/products/9786263339682">
+  <img src="https://cf-assets2.tenlong.com.tw/products/images/000/223/964/original/9786263339682_bc.jpg?1728464342" height="30%" width="30%" alt="書籍封面">
+</a>
+<p>購買連結：<a href="https://www.tenlong.com.tw/products/9786263339682">前往購買</a></p>
 
 ## 文章簡介
 近幾個月來，因ChatGPT的出現，推動了NLP領域的發展，因此在本次鐵人賽的挑戰中，我會通過這30天的時間來講述NLP領域中的熱門模型背後的技術原理(例如:Transformer、BERT、GPT)，並從實際的應用中，告訴你該怎麼撰寫這些模型的程式碼，以加深我們對該模型的印象。同時我會還會使用不同的工具，來分析這些文字之間的關聯性，並對此結果加以解釋，從而一步步的理解NLP模型中的共同之處與運算方式。
