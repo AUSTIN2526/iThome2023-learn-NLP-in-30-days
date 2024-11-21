@@ -4,7 +4,7 @@
 # 書籍推廣
 該文章已被改寫成書籍『全面掌握生成式 AI 與 LLM 開發實務：NLP × PyTorch × GPT 輕鬆打造專屬的大型語言模型 』，有興趣的人歡迎選購
 
-* 書籍連結
+* [書籍連結](https://www.tenlong.com.tw/products/9786263339682)
 <a href="https://www.tenlong.com.tw/products/9786263339682">
   <img src="https://cf-assets2.tenlong.com.tw/products/images/000/223/964/original/9786263339682_bc.jpg?1728464342" height="30%" width="30%" alt="書籍封面">
 </a>
